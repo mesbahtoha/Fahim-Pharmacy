@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Hind_Siliguri } from "next/font/google";
+import { Noto_Sans_Bengali } from "next/font/google";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { FloatingActions } from "@/components/layout/floating-actions";
@@ -7,9 +7,9 @@ import { SITE, IMAGES } from "@/lib/constants";
 import { getPharmacySchema } from "@/lib/schema";
 import "./globals.css";
 
-const hindSiliguri = Hind_Siliguri({
+const notoSansBengali = Noto_Sans_Bengali({
   subsets: ["bengali", "latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-bangla",
   display: "swap",
 });
@@ -82,7 +82,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="bn" className={hindSiliguri.variable} suppressHydrationWarning>
+    <html lang="bn" className={notoSansBengali.variable} suppressHydrationWarning>
       <body>
         <script
           type="application/ld+json"

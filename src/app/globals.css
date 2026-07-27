@@ -22,6 +22,7 @@
 
   body {
     @apply bg-background text-foreground font-bangla antialiased;
+    text-rendering: optimizeLegibility;
   }
 
   ::selection {
