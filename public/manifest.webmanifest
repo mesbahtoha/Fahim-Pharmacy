@@ -1,0 +1,16 @@
+{
+  "name": "ফাহিম ফার্মেসি এন্ড সার্জিক্যাল",
+  "short_name": "Fahim Pharmacy",
+  "description": "ফাহিম ফার্মেসি এন্ড সার্জিক্যাল — বগুড়ার বিশ্বস্ত ফার্মেসি, টিএমএসএস মেডিকেল কলেজ হাসপাতাল প্রাঙ্গণে",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F766E",
+  "icons": [
+    {
+      "src": "/images/logo.jpeg",
+      "sizes": "any",
+      "type": "image/jpeg"
+    }
+  ]
+}

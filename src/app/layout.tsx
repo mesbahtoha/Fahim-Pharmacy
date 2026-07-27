@@ -55,6 +55,7 @@ export const metadata: Metadata = {
     description: SITE.description,
     images: [IMAGES.bannerWeb],
   },
+  manifest: "/manifest.webmanifest",
   icons: {
     icon: IMAGES.logo,
     apple: IMAGES.logo,
