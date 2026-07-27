@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%; /* #F8FAFC */
+    --foreground: 200 50% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 50% 10%;
+    --muted: 210 40% 94%;
+    --muted-foreground: 215 16% 40%;
+    --border: 214 32% 91%;
+    --input: 214 32% 88%;
+    --ring: 175 77% 26%; /* #0F766E */
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-background text-foreground font-bangla antialiased;
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-primary-900;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Frosted-glass surface used in the header and hero badges */
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/50;
+  }
+}
