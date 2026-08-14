@@ -31,8 +31,7 @@ export function Hero() {
             {SITE.tagline}
           </p>
           <p className="mt-5 max-w-xl text-[17px] leading-relaxed text-muted-foreground">
-            {SITE.description} টিএমএসএস মেডিকেল কলেজ হাসপাতাল প্রাঙ্গণেই আমাদের
-            অবস্থান — রোগী ও স্বজনদের জন্য কেবিন ডেলিভারিসহ সব ধরনের সেবা।
+            {SITE.description}TMSS মেডিকেল কলেজ ও রফাতুল্লাহ কমিউনিটি হাসপাতালের উত্তর গেটের সামনেই আমাদের অবস্থান।
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
